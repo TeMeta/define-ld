@@ -1,12 +1,12 @@
 # Define-LD
-Linked Data Schema for Clinical Trial Datasets. CDISC-compliant submission metadata using JSON-LD.
+Linked Data Schema for Clinical Trial Datasets. CDISC-compliant submission metadata using [JSON-LD](https://www.w3.org/TR/json-ld11/).
 
 # Motivation
 _The Clinical Research community are passionate about data and metadata standards, which is why we have so many._
 
 [FAIR](https://www.nature.com/articles/sdata201618) data approaches are essential for effective research and automation of Clinical Trial submissions.
 
-The CDISC submission standards are mandatory but are often not considered to the needs of research organisations, who need:
+The [CDISC submission standards](https://www.cdisc.org/standards) are mandatory but are often not considered to the needs of research organisations, who need:
 * Human-readability, intuitive links
 * Control of the standards for compatibility with their own systems
 * A more accessible format than SAS datasets and .XML metadata files
@@ -15,7 +15,7 @@ This has led to silo-ing, with individual departments within each company buildi
 
 An ironic side-effect of this is the proliferation of yet more standards and complexity when initiatives try to bridge the gap - **this project must remain mindful of this hypocrisy.**
 
-By building a JSON-LD representation of the mandatory metadata standard we can leverage its structure in a way that works natively with APIs and semantic clinical data ontologies without the need for additional transformation steps.
+By building a JSON-LD representation of the existing mandatory metadata standard we can leverage its structure in a way that works natively with APIs and semantic clinical data ontologies without the need for additional transformation steps.
 
 # How it works
 Data in any form is self-descriptive via tags for its `@id` and a `@context`, a URL linking it back to its study metadata API endpoint.
