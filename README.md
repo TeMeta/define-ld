@@ -45,9 +45,8 @@ In addition to compatibility with the CDISC Object Data Model, the following ext
 Each of the following has a @context referring to its parent and can be validated against the metadata description provided by its parent.
 
 - define-ld schema
-  - your define-ld MDR
-    - [Trial Metadata (versioned)](#trial-metadata)
-      - clinical data file
+  - [Trial Metadata (versioned in your MDR)](#trial-metadata)
+    - clinical data file
 
 This approach allows automatic validation of the metadata structure itself in addition to the validation of the data against its defined structure in the Trial Metadata.
 
