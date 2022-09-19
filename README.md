@@ -1,3 +1,5 @@
+[**Update:** For examples of Define-LD concept in action, see proof of concept developed for Dataset-JSON hackathon](https://github.com/TeMeta/Dataset-JSON_hackathon)
+
 # Define-LD
 CDISC-compliant submission metadata via a common boilerplate metadata repository (MDR) schema.
 
